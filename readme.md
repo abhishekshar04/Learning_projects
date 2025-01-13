@@ -1,6 +1,8 @@
 # Welcome to my Learning Projects
+
+**I am adding projects that I am using to learn different skills and frameworks**
+
 ---
-**I am adding projects that I am using to learn different skills**
 
 >Follow these steps to copy these projects
 
@@ -8,8 +10,8 @@
     ```
     git clone "https://github.com/abhishekshar04/Learning_projects.git"
     ```
-2. Move to the directory of the project
-3. Now follow the steps mentioned in the readme of the project you selected.
+3. Move to the directory of the project
+4. Now follow the steps mentioned in the readme of the project you selected.
 
 
 ## ⭐ Give a Star!

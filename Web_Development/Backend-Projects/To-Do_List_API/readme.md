@@ -38,3 +38,37 @@ JWT_SECRET=your_jwt_secret
 5. Start the server:
 `node server.js`
 The server will run on http://localhost:5000.
+
+---
+
+## API Endpoints
+
+### Authentication
+| Method | Endpoint     | Description                |
+|--------|--------------|----------------------------|
+| POST   | \`/signup\`    | Register a new user.       |
+| POST   | \`/signin\`    | Log in and get a JWT token.|
+
+### To-Do Management (Protected)
+| Method | Endpoint     | Description                          |
+|--------|--------------|--------------------------------------|
+| GET    | \`/me\`        | Get details of the authenticated user.|
+| POST   | \`/todos\`     | Create a new to-do item.             |
+| GET    | \`/todos\`     | Retrieve all to-do items.            |
+
+---
+
+### Folder Structure
+
+``````plaintext
+├── middleware/
+│   └── authenticateToken.js    # Middleware for JWT verification
+├── utils/
+│   ├── signin.util.js          # Signin functionality
+│   ├── signup.util.js          # Signup functionality
+│   ├── todos.util.js           # To-do management logic
+│   └── me.util.js              # Retrieve user information
+├── .env                        # Environment variables
+├── server.js                   # Main server file
+└── package.json                # Project metadata and dependencies```
+

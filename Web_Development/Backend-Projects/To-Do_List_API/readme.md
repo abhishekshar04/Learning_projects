@@ -21,7 +21,7 @@ Ensure you have the following installed on your machine:
 ### <h4>Steps<h4>
 
 1. Clone the repository:
-`git clone https://github.com/your-username/todo-list-api.git`
+`git clone https://github.com/abhishekshar04/Learning_projects.git`
 
 2. Navigate to the project directory:
 `cd todo-list-api`

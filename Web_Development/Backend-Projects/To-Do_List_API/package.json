@@ -1,0 +1,25 @@
+{
+  "name": "to-do_list_api",
+  "version": "1.0.0",
+  "description": "This is a basic todo list api.",
+  "main": "server.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/abhishekshar04/Learning_projects.git"
+  },
+  "author": "Abhishek Sharma",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/abhishekshar04/Learning_projects/issues"
+  },
+  "homepage": "https://github.com/abhishekshar04/Learning_projects#readme",
+  "dependencies": {
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2",
+    "jsonwebtoken": "^9.0.2"
+  }
+}

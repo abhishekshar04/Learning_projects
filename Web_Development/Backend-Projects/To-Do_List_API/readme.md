@@ -60,7 +60,7 @@ The server will run on http://localhost:5000.
 
 ### Folder Structure
 
-``````plaintext
+```
 ├── middleware/
 │   └── authenticateToken.js    # Middleware for JWT verification
 ├── utils/
@@ -70,5 +70,36 @@ The server will run on http://localhost:5000.
 │   └── me.util.js              # Retrieve user information
 ├── .env                        # Environment variables
 ├── server.js                   # Main server file
-└── package.json                # Project metadata and dependencies```
+└── package.json                # Project metadata and dependencies
+```
 
+---
+
+### Usage 
+1. Test API endpoints using Postman or cURL.
+2. Example request for creating a to-do (requires JWT token in the Authorization header):
+```
+POST /todos
+Authorization: Bearer <your-jwt-token>
+
+Body:
+{
+  "title": "Learn Node.js",
+  "description": "Complete tutorials on Node.js basics."
+}
+```
+
+---
+
+### Future Enhancements 
+- Add a database (e.g., MongoDB) to persist user and to-do data.
+
+- Implement pagination for the /todos endpoint.
+
+- Add additional fields like due date, priority, and completion status for to-dos.
+
+---
+
+### Acknowledgemnts
+- [Node.js Documentation](https://nodejs.org/docs/latest/api/)
+- [Express.js Guide](https://expressjs.com/en/guide/routing.html)
